@@ -5,8 +5,11 @@ public class milesPerGallon {
 		//Create a new Scanner object s to take input from user
 		Scanner s= new Scanner(System.in);
 		
+		//Accept the input from user for Miles travelled
 		System.out.print("Enter Miles Travelled: ");
 		int miles = s.nextInt();
+		
+		//Accept the input form user for Gallons used
 		System.out.print("Enter Gallons used: ");
 		float gallons = s.nextFloat();
 		
